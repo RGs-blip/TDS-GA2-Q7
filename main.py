@@ -68,7 +68,7 @@ async def work(n: int = Query(default=1, ge=1)):
     for i in range(n):
         total += i * i
 
-    return {"email": "your_email@example.com", "done": n}
+    return {"email": "23f1001344@ds.study.iitm.ac.in", "done": n}
 
 
 # 5. Prometheus metrics endpoint
